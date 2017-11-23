@@ -107,24 +107,24 @@ public class JFrame extends javax.swing.JFrame {
         jLabel9 = new javax.swing.JLabel();
         jSeparator13 = new javax.swing.JSeparator();
         infoPanel = new javax.swing.JPanel();
-        brampRadioButton1 = new javax.swing.JRadioButton();
+        brampInfoRadioButton = new javax.swing.JRadioButton();
         jLabel8 = new javax.swing.JLabel();
         jSeparator8 = new javax.swing.JSeparator();
         jLabel17 = new javax.swing.JLabel();
-        otherRadioButton1 = new javax.swing.JRadioButton();
+        otherInfoRadioButton = new javax.swing.JRadioButton();
         jSeparator10 = new javax.swing.JSeparator();
         lNInfoField = new javax.swing.JTextField();
         jLabel18 = new javax.swing.JLabel();
-        femaleRadioButton1 = new javax.swing.JRadioButton();
-        torontoRadioButton1 = new javax.swing.JRadioButton();
-        partTimeRadioButton1 = new javax.swing.JRadioButton();
+        femaleInfoRadioButton = new javax.swing.JRadioButton();
+        torontoInfoRadioButton = new javax.swing.JRadioButton();
+        partTimeInfoRadioButton = new javax.swing.JRadioButton();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
         jSeparator11 = new javax.swing.JSeparator();
-        maleRadioButton1 = new javax.swing.JRadioButton();
+        maleInfoRadioButton = new javax.swing.JRadioButton();
         fNInfoField = new javax.swing.JTextField();
-        missRadioButton1 = new javax.swing.JRadioButton();
-        fullTimeRadioButton1 = new javax.swing.JRadioButton();
+        missInfoRadioButton = new javax.swing.JRadioButton();
+        fullTimeInfoRadioButton = new javax.swing.JRadioButton();
         deductInfoField = new javax.swing.JTextField();
         saveButton = new javax.swing.JButton();
         cancelButton = new javax.swing.JButton();
@@ -684,12 +684,12 @@ public class JFrame extends javax.swing.JFrame {
 
         infoPanel.setBackground(new java.awt.Color(255, 255, 255));
 
-        brampRadioButton1.setBackground(new java.awt.Color(255, 255, 255));
-        locationGroup.add(brampRadioButton1);
-        brampRadioButton1.setText("Brampton");
-        brampRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+        brampInfoRadioButton.setBackground(new java.awt.Color(255, 255, 255));
+        locationGroup.add(brampInfoRadioButton);
+        brampInfoRadioButton.setText("Brampton");
+        brampInfoRadioButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                brampRadioButton1ActionPerformed(evt);
+                brampInfoRadioButtonActionPerformed(evt);
             }
         });
 
@@ -697,12 +697,12 @@ public class JFrame extends javax.swing.JFrame {
 
         jLabel17.setText("Location:");
 
-        otherRadioButton1.setBackground(new java.awt.Color(255, 255, 255));
-        genderGroup.add(otherRadioButton1);
-        otherRadioButton1.setText("Other");
-        otherRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+        otherInfoRadioButton.setBackground(new java.awt.Color(255, 255, 255));
+        genderGroup.add(otherInfoRadioButton);
+        otherInfoRadioButton.setText("Other");
+        otherInfoRadioButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                otherRadioButton1ActionPerformed(evt);
+                otherInfoRadioButtonActionPerformed(evt);
             }
         });
 
@@ -716,30 +716,30 @@ public class JFrame extends javax.swing.JFrame {
 
         jLabel18.setText("Last Name:");
 
-        femaleRadioButton1.setBackground(new java.awt.Color(255, 255, 255));
-        genderGroup.add(femaleRadioButton1);
-        femaleRadioButton1.setText("Female");
-        femaleRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+        femaleInfoRadioButton.setBackground(new java.awt.Color(255, 255, 255));
+        genderGroup.add(femaleInfoRadioButton);
+        femaleInfoRadioButton.setText("Female");
+        femaleInfoRadioButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                femaleRadioButton1ActionPerformed(evt);
+                femaleInfoRadioButtonActionPerformed(evt);
             }
         });
 
-        torontoRadioButton1.setBackground(new java.awt.Color(255, 255, 255));
-        locationGroup.add(torontoRadioButton1);
-        torontoRadioButton1.setText("Toronto");
-        torontoRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+        torontoInfoRadioButton.setBackground(new java.awt.Color(255, 255, 255));
+        locationGroup.add(torontoInfoRadioButton);
+        torontoInfoRadioButton.setText("Toronto");
+        torontoInfoRadioButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                torontoRadioButton1ActionPerformed(evt);
+                torontoInfoRadioButtonActionPerformed(evt);
             }
         });
 
-        partTimeRadioButton1.setBackground(new java.awt.Color(255, 255, 255));
-        employmentStatus.add(partTimeRadioButton1);
-        partTimeRadioButton1.setText("Part Time Employee");
-        partTimeRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+        partTimeInfoRadioButton.setBackground(new java.awt.Color(255, 255, 255));
+        employmentStatus.add(partTimeInfoRadioButton);
+        partTimeInfoRadioButton.setText("Part Time Employee");
+        partTimeInfoRadioButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                partTimeRadioButton1ActionPerformed(evt);
+                partTimeInfoRadioButtonActionPerformed(evt);
             }
         });
 
@@ -747,12 +747,12 @@ public class JFrame extends javax.swing.JFrame {
 
         jLabel20.setText("First Name:");
 
-        maleRadioButton1.setBackground(new java.awt.Color(255, 255, 255));
-        genderGroup.add(maleRadioButton1);
-        maleRadioButton1.setText("Male");
-        maleRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+        maleInfoRadioButton.setBackground(new java.awt.Color(255, 255, 255));
+        genderGroup.add(maleInfoRadioButton);
+        maleInfoRadioButton.setText("Male");
+        maleInfoRadioButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                maleRadioButton1ActionPerformed(evt);
+                maleInfoRadioButtonActionPerformed(evt);
             }
         });
 
@@ -764,21 +764,21 @@ public class JFrame extends javax.swing.JFrame {
             }
         });
 
-        missRadioButton1.setBackground(new java.awt.Color(255, 255, 255));
-        locationGroup.add(missRadioButton1);
-        missRadioButton1.setText("Mississauga");
-        missRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+        missInfoRadioButton.setBackground(new java.awt.Color(255, 255, 255));
+        locationGroup.add(missInfoRadioButton);
+        missInfoRadioButton.setText("Mississauga");
+        missInfoRadioButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                missRadioButton1ActionPerformed(evt);
+                missInfoRadioButtonActionPerformed(evt);
             }
         });
 
-        fullTimeRadioButton1.setBackground(new java.awt.Color(255, 255, 255));
-        employmentStatus.add(fullTimeRadioButton1);
-        fullTimeRadioButton1.setText("Full Time Employee");
-        fullTimeRadioButton1.addActionListener(new java.awt.event.ActionListener() {
+        fullTimeInfoRadioButton.setBackground(new java.awt.Color(255, 255, 255));
+        employmentStatus.add(fullTimeInfoRadioButton);
+        fullTimeInfoRadioButton.setText("Full Time Employee");
+        fullTimeInfoRadioButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                fullTimeRadioButton1ActionPerformed(evt);
+                fullTimeInfoRadioButtonActionPerformed(evt);
             }
         });
 
@@ -791,14 +791,14 @@ public class JFrame extends javax.swing.JFrame {
             }
         });
 
-        saveButton.setText("Save");
+        saveButton.setText("Remove");
         saveButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 saveButtonActionPerformed(evt);
             }
         });
 
-        cancelButton.setText("Cancel");
+        cancelButton.setText("Edit");
         cancelButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cancelButtonActionPerformed(evt);
@@ -813,8 +813,8 @@ public class JFrame extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(partTimeRadioButton1)
-                        .addComponent(fullTimeRadioButton1))
+                        .addComponent(partTimeInfoRadioButton)
+                        .addComponent(fullTimeInfoRadioButton))
                     .addComponent(cancelButton, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -822,9 +822,9 @@ public class JFrame extends javax.swing.JFrame {
                         .addComponent(jLabel17)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(missRadioButton1)
-                            .addComponent(brampRadioButton1)
-                            .addComponent(torontoRadioButton1)))
+                            .addComponent(missInfoRadioButton)
+                            .addComponent(brampInfoRadioButton)
+                            .addComponent(torontoInfoRadioButton)))
                     .addComponent(saveButton))
                 .addGap(24, 24, 24))
             .addGroup(infoPanelLayout.createSequentialGroup()
@@ -855,9 +855,9 @@ public class JFrame extends javax.swing.JFrame {
                 .addComponent(jLabel8)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(femaleRadioButton1)
-                    .addComponent(maleRadioButton1)
-                    .addComponent(otherRadioButton1))
+                    .addComponent(femaleInfoRadioButton)
+                    .addComponent(maleInfoRadioButton)
+                    .addComponent(otherInfoRadioButton))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         infoPanelLayout.setVerticalGroup(
@@ -888,25 +888,25 @@ public class JFrame extends javax.swing.JFrame {
                         .addGap(4, 4, 4)
                         .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel8)
-                            .addComponent(maleRadioButton1))
+                            .addComponent(maleInfoRadioButton))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(femaleRadioButton1)
+                        .addComponent(femaleInfoRadioButton)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(otherRadioButton1)
+                        .addComponent(otherInfoRadioButton)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)))
                 .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(infoPanelLayout.createSequentialGroup()
                         .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(jLabel17)
-                            .addComponent(missRadioButton1))
+                            .addComponent(missInfoRadioButton))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(brampRadioButton1)
+                        .addComponent(brampInfoRadioButton)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(torontoRadioButton1))
+                        .addComponent(torontoInfoRadioButton))
                     .addGroup(infoPanelLayout.createSequentialGroup()
-                        .addComponent(partTimeRadioButton1)
+                        .addComponent(partTimeInfoRadioButton)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(fullTimeRadioButton1)))
+                        .addComponent(fullTimeInfoRadioButton)))
                 .addGap(69, 69, 69)
                 .addGroup(infoPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(saveButton)
@@ -1039,9 +1039,7 @@ public class JFrame extends javax.swing.JFrame {
         PartTimeEmployee someEmployee = new PartTimeEmployee(empNum, fN, lN, gender, location, deductRate, hourlyWage, hoursPerWeek, weeksPerYear);
         System.out.println(someEmployee.getEmpNumber());
         myHT.addEmployee(someEmployee);
-              
-                
-     
+
         //myHT.addEmployee(new PartTimeEmployee(this.empNum,this.fN, this.lN, this.gender,  this.location, this.deductRate, Double.parseDouble(hourlyWageField.getText()), Double.parseDouble(hoursPerWeekField.getText()),Double.parseDouble(weeksPerYearField.getText())));
     }//GEN-LAST:event_addPTEmployeeButtonActionPerformed
 
@@ -1097,9 +1095,9 @@ public class JFrame extends javax.swing.JFrame {
 
     private void addFTEmployeeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addFTEmployeeButtonActionPerformed
         // TODO add your handling code here:
-        myHT.addEmployee(new FullTimeEmployee(this.empNum,this.fN, this.lN, this.gender,  this.location,
-			this.deductRate,Integer.parseInt(yearlySalaryField.getText())));
-        
+        myHT.addEmployee(new FullTimeEmployee(this.empNum, this.fN, this.lN, this.gender, this.location,
+                this.deductRate, Integer.parseInt(yearlySalaryField.getText())));
+
         JOptionPane.showMessageDialog(null, "Employee Added");
         clear();
         viewPanel.setVisible(true);
@@ -1162,57 +1160,75 @@ public class JFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
         int toFind = Integer.parseInt(searchField.getText());
         EmployeeInfo found = myHT.search(toFind);
-        if (found == null){
+        if (found == null) {
             JOptionPane.showMessageDialog(null, "No Such Employee was Found");
-        } else if (found != null){
+        } else if (found != null) {
             lNInfoField.setText(found.getLastName());
             fNInfoField.setText(found.getFirstName());
             deductInfoField.setText(Double.toString(found.getDeductRate()));
-            
-            
+
+            if (found instanceof PartTimeEmployee) {
+                partTimeInfoRadioButton.setSelected(true);
+            } else if (found instanceof FullTimeEmployee) {
+                fullTimeInfoRadioButton.setSelected(true);
+            }
+            if (found.getGender() == Gender.MALE) {
+                maleInfoRadioButton.setSelected(true);
+            } else if (found.getGender() == Gender.FEMALE) {
+                femaleInfoRadioButton.setSelected(true);
+            } else if(found.getGender() == Gender.OTHER){
+                otherInfoRadioButton.setSelected(true);
+            }
+            if (found.getLocation() == Location.BRAMPTON) {
+                brampInfoRadioButton.setSelected(true);
+            } else if (found.getLocation() == Location.MISSISSAUGA) {
+                missInfoRadioButton.setSelected(true);
+            } else if (found.getLocation() == Location.TORONTO){
+                torontoInfoRadioButton.setSelected(true);
+            }
             infoPanel.setVisible(true);
         }
     }//GEN-LAST:event_searchFieldActionPerformed
 
-    private void brampRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_brampRadioButton1ActionPerformed
+    private void brampInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_brampInfoRadioButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_brampRadioButton1ActionPerformed
+    }//GEN-LAST:event_brampInfoRadioButtonActionPerformed
 
-    private void otherRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_otherRadioButton1ActionPerformed
+    private void otherInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_otherInfoRadioButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_otherRadioButton1ActionPerformed
+    }//GEN-LAST:event_otherInfoRadioButtonActionPerformed
 
     private void lNInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lNInfoFieldActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_lNInfoFieldActionPerformed
 
-    private void femaleRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_femaleRadioButton1ActionPerformed
+    private void femaleInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_femaleInfoRadioButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_femaleRadioButton1ActionPerformed
+    }//GEN-LAST:event_femaleInfoRadioButtonActionPerformed
 
-    private void torontoRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_torontoRadioButton1ActionPerformed
+    private void torontoInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_torontoInfoRadioButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_torontoRadioButton1ActionPerformed
+    }//GEN-LAST:event_torontoInfoRadioButtonActionPerformed
 
-    private void partTimeRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_partTimeRadioButton1ActionPerformed
+    private void partTimeInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_partTimeInfoRadioButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_partTimeRadioButton1ActionPerformed
+    }//GEN-LAST:event_partTimeInfoRadioButtonActionPerformed
 
-    private void maleRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_maleRadioButton1ActionPerformed
+    private void maleInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_maleInfoRadioButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_maleRadioButton1ActionPerformed
+    }//GEN-LAST:event_maleInfoRadioButtonActionPerformed
 
     private void fNInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fNInfoFieldActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_fNInfoFieldActionPerformed
 
-    private void missRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_missRadioButton1ActionPerformed
+    private void missInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_missInfoRadioButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_missRadioButton1ActionPerformed
+    }//GEN-LAST:event_missInfoRadioButtonActionPerformed
 
-    private void fullTimeRadioButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fullTimeRadioButton1ActionPerformed
+    private void fullTimeInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fullTimeInfoRadioButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_fullTimeRadioButton1ActionPerformed
+    }//GEN-LAST:event_fullTimeInfoRadioButtonActionPerformed
 
     private void deductInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deductInfoFieldActionPerformed
         // TODO add your handling code here:
@@ -1284,8 +1300,8 @@ public class JFrame extends javax.swing.JFrame {
     private javax.swing.JButton addFTEmployeeButton;
     private javax.swing.JButton addPTEmployeeButton;
     private javax.swing.JPanel addPanel;
+    private javax.swing.JRadioButton brampInfoRadioButton;
     private javax.swing.JRadioButton brampRadioButton;
-    private javax.swing.JRadioButton brampRadioButton1;
     private javax.swing.JButton cancelButton;
     private javax.swing.JTextField deductField;
     private javax.swing.JTextField deductInfoField;
@@ -1293,11 +1309,11 @@ public class JFrame extends javax.swing.JFrame {
     private javax.swing.ButtonGroup employmentStatus;
     private javax.swing.JTextField fNField;
     private javax.swing.JTextField fNInfoField;
+    private javax.swing.JRadioButton femaleInfoRadioButton;
     private javax.swing.JRadioButton femaleRadioButton;
-    private javax.swing.JRadioButton femaleRadioButton1;
+    private javax.swing.JRadioButton fullTimeInfoRadioButton;
     private javax.swing.JPanel fullTimePanel;
     private javax.swing.JRadioButton fullTimeRadioButton;
-    private javax.swing.JRadioButton fullTimeRadioButton1;
     private javax.swing.ButtonGroup genderGroup;
     private javax.swing.JTextField hourlyWageFeild;
     private javax.swing.JLabel hourlyWageField;
@@ -1343,23 +1359,23 @@ public class JFrame extends javax.swing.JFrame {
     private javax.swing.JTextField lNField;
     private javax.swing.JTextField lNInfoField;
     private javax.swing.ButtonGroup locationGroup;
+    private javax.swing.JRadioButton maleInfoRadioButton;
     private javax.swing.JRadioButton maleRadioButton;
-    private javax.swing.JRadioButton maleRadioButton1;
+    private javax.swing.JRadioButton missInfoRadioButton;
     private javax.swing.JRadioButton missRadioButton;
-    private javax.swing.JRadioButton missRadioButton1;
+    private javax.swing.JRadioButton otherInfoRadioButton;
     private javax.swing.JRadioButton otherRadioButton;
-    private javax.swing.JRadioButton otherRadioButton1;
     private javax.swing.JPanel parentPanel;
+    private javax.swing.JRadioButton partTimeInfoRadioButton;
     private javax.swing.JPanel partTimePanel;
     private javax.swing.JRadioButton partTimeRadioButton;
-    private javax.swing.JRadioButton partTimeRadioButton1;
     private javax.swing.JButton saveButton;
     private javax.swing.JPanel searchButton;
     private javax.swing.JTextField searchField;
     private javax.swing.JPanel searchPanel;
     private javax.swing.JPanel sidePanel;
+    private javax.swing.JRadioButton torontoInfoRadioButton;
     private javax.swing.JRadioButton torontoRadioButton;
-    private javax.swing.JRadioButton torontoRadioButton1;
     private javax.swing.JPanel viewButton;
     private javax.swing.JPanel viewPanel;
     private javax.swing.JTextField weeksPerYearField;
