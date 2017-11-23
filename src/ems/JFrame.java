@@ -140,6 +140,11 @@ public class JFrame extends javax.swing.JFrame {
         jScrollPane1.setViewportView(jList1);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowClosing(java.awt.event.WindowEvent evt) {
+                formWindowClosing(evt);
+            }
+        });
 
         sidePanel.setBackground(new java.awt.Color(100, 181, 246));
 
@@ -1124,123 +1129,20 @@ public class JFrame extends javax.swing.JFrame {
         setBackground(viewButton);
     }//GEN-LAST:event_viewButtonMouseEntered
 
-    private void addButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_addButtonMouseClicked
-        // TODO add your handling code here:
-        clear();
-        addPanel.setVisible(true);
-    }//GEN-LAST:event_addButtonMouseClicked
 
-    private void addButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_addButtonMouseExited
-        // TODO add your handling code here:
-        resetBackground(addButton);
-    }//GEN-LAST:event_addButtonMouseExited
 
-    private void addButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_addButtonMouseEntered
-        // TODO add your handling code here:
-        setBackground(addButton);
-    }//GEN-LAST:event_addButtonMouseEntered
-
-    private void searchButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_searchButtonMouseClicked
-        // TODO add your handling code here:
-        clear();
-        searchPanel.setVisible(true);
-    }//GEN-LAST:event_searchButtonMouseClicked
-
-    private void searchButtonMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_searchButtonMouseExited
-        // TODO add your handling code here:
-        resetBackground(searchButton);
-    }//GEN-LAST:event_searchButtonMouseExited
-
-    private void searchButtonMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_searchButtonMouseEntered
-        // TODO add your handling code here:
-        setBackground(searchButton);
-    }//GEN-LAST:event_searchButtonMouseEntered
-
-    private void searchFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_searchFieldActionPerformed
-        // TODO add your handling code here:
-        int toFind = Integer.parseInt(searchField.getText());
-        EmployeeInfo found = myHT.search(toFind);
-        if (found == null) {
-            JOptionPane.showMessageDialog(null, "No Such Employee was Found");
-        } else if (found != null) {
-            lNInfoField.setText(found.getLastName());
-            fNInfoField.setText(found.getFirstName());
-            deductInfoField.setText(Double.toString(found.getDeductRate()));
-
-            if (found instanceof PartTimeEmployee) {
-                partTimeInfoRadioButton.setSelected(true);
-            } else if (found instanceof FullTimeEmployee) {
-                fullTimeInfoRadioButton.setSelected(true);
-            }
-            if (found.getGender() == Gender.MALE) {
-                maleInfoRadioButton.setSelected(true);
-            } else if (found.getGender() == Gender.FEMALE) {
-                femaleInfoRadioButton.setSelected(true);
-            } else if(found.getGender() == Gender.OTHER){
-                otherInfoRadioButton.setSelected(true);
-            }
-            if (found.getLocation() == Location.BRAMPTON) {
-                brampInfoRadioButton.setSelected(true);
-            } else if (found.getLocation() == Location.MISSISSAUGA) {
-                missInfoRadioButton.setSelected(true);
-            } else if (found.getLocation() == Location.TORONTO){
-                torontoInfoRadioButton.setSelected(true);
-            }
-            infoPanel.setVisible(true);
-        }
-    }//GEN-LAST:event_searchFieldActionPerformed
-
-    private void brampInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_brampInfoRadioButtonActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_brampInfoRadioButtonActionPerformed
-
-    private void otherInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_otherInfoRadioButtonActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_otherInfoRadioButtonActionPerformed
-
-    private void lNInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lNInfoFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_lNInfoFieldActionPerformed
-
-    private void femaleInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_femaleInfoRadioButtonActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_femaleInfoRadioButtonActionPerformed
-
-    private void torontoInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_torontoInfoRadioButtonActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_torontoInfoRadioButtonActionPerformed
-
-    private void partTimeInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_partTimeInfoRadioButtonActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_partTimeInfoRadioButtonActionPerformed
-
-    private void maleInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_maleInfoRadioButtonActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_maleInfoRadioButtonActionPerformed
-
-    private void fNInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fNInfoFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_fNInfoFieldActionPerformed
-
-    private void missInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_missInfoRadioButtonActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_missInfoRadioButtonActionPerformed
-
-    private void fullTimeInfoRadioButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fullTimeInfoRadioButtonActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_fullTimeInfoRadioButtonActionPerformed
-
-    private void deductInfoFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deductInfoFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_deductInfoFieldActionPerformed
-
-    private void saveButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveButtonActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_saveButtonActionPerformed
-
-    private void cancelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cancelButtonActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_cancelButtonActionPerformed
+    private void formWindowClosing(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowClosing
+//        for (int i = 0; i < buckets.length; i++) {
+//			// For the current bucket, print out the empNum for each item in its ArrayList.
+//			int listSize = buckets[i].size();
+//			if (listSize != 0) {
+//				for (int j = 0; j < listSize; j++) {
+//					EmployeeInfo theEmployee = buckets[i].get(j);
+//					displayEmployee(theEmployee.getEmpNum());
+//				}
+//			}
+//		}
+    }//GEN-LAST:event_formWindowClosing
 
     private void setBackground(JPanel panel) {
         panel.setBackground(new Color(148, 204, 248));
