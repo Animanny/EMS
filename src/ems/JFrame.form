@@ -964,8 +964,8 @@
                           <EmptySpace max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                  <Component id="partTimeRadioButton1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="fullTimeRadioButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="partTimeInfoRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="fullTimeInfoRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Component id="cancelButton" alignment="1" min="-2" max="-2" attributes="0"/>
                           </Group>
@@ -975,9 +975,9 @@
                                   <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="missRadioButton1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="brampRadioButton1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="torontoRadioButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="missInfoRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="brampInfoRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="torontoInfoRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <Component id="saveButton" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -1021,9 +1021,9 @@
                           <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="femaleRadioButton1" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="maleRadioButton1" alignment="0" min="-2" max="-2" attributes="0"/>
-                              <Component id="otherRadioButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="femaleInfoRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="maleInfoRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="otherInfoRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
@@ -1064,12 +1064,12 @@
                                   <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="maleRadioButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="maleInfoRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="femaleRadioButton1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="femaleInfoRadioButton" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="otherRadioButton1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="otherInfoRadioButton" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace pref="12" max="32767" attributes="0"/>
                               </Group>
                           </Group>
@@ -1077,17 +1077,17 @@
                               <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="missRadioButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="missInfoRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="brampRadioButton1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="brampInfoRadioButton" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="torontoRadioButton1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="torontoInfoRadioButton" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" attributes="0">
-                                  <Component id="partTimeRadioButton1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="partTimeInfoRadioButton" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="fullTimeRadioButton1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="fullTimeInfoRadioButton" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
@@ -1101,7 +1101,7 @@
                 </DimensionLayout>
               </Layout>
               <SubComponents>
-                <Component class="javax.swing.JRadioButton" name="brampRadioButton1">
+                <Component class="javax.swing.JRadioButton" name="brampInfoRadioButton">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1112,7 +1112,7 @@
                     <Property name="text" type="java.lang.String" value="Brampton"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="brampRadioButton1ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="brampInfoRadioButtonActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel8">
@@ -1127,7 +1127,7 @@
                     <Property name="text" type="java.lang.String" value="Location:"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JRadioButton" name="otherRadioButton1">
+                <Component class="javax.swing.JRadioButton" name="otherInfoRadioButton">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1138,7 +1138,7 @@
                     <Property name="text" type="java.lang.String" value="Other"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="otherRadioButton1ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="otherInfoRadioButtonActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JSeparator" name="jSeparator10">
@@ -1159,7 +1159,7 @@
                     <Property name="text" type="java.lang.String" value="Last Name:"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JRadioButton" name="femaleRadioButton1">
+                <Component class="javax.swing.JRadioButton" name="femaleInfoRadioButton">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1170,10 +1170,10 @@
                     <Property name="text" type="java.lang.String" value="Female"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="femaleRadioButton1ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="femaleInfoRadioButtonActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JRadioButton" name="torontoRadioButton1">
+                <Component class="javax.swing.JRadioButton" name="torontoInfoRadioButton">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1184,10 +1184,10 @@
                     <Property name="text" type="java.lang.String" value="Toronto"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="torontoRadioButton1ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="torontoInfoRadioButtonActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JRadioButton" name="partTimeRadioButton1">
+                <Component class="javax.swing.JRadioButton" name="partTimeInfoRadioButton">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1198,7 +1198,7 @@
                     <Property name="text" type="java.lang.String" value="Part Time Employee"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="partTimeRadioButton1ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="partTimeInfoRadioButtonActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel19">
@@ -1213,7 +1213,7 @@
                 </Component>
                 <Component class="javax.swing.JSeparator" name="jSeparator11">
                 </Component>
-                <Component class="javax.swing.JRadioButton" name="maleRadioButton1">
+                <Component class="javax.swing.JRadioButton" name="maleInfoRadioButton">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1224,7 +1224,7 @@
                     <Property name="text" type="java.lang.String" value="Male"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="maleRadioButton1ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="maleInfoRadioButtonActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JTextField" name="fNInfoField">
@@ -1238,7 +1238,7 @@
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fNInfoFieldActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JRadioButton" name="missRadioButton1">
+                <Component class="javax.swing.JRadioButton" name="missInfoRadioButton">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1249,10 +1249,10 @@
                     <Property name="text" type="java.lang.String" value="Mississauga"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="missRadioButton1ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="missInfoRadioButtonActionPerformed"/>
                   </Events>
                 </Component>
-                <Component class="javax.swing.JRadioButton" name="fullTimeRadioButton1">
+                <Component class="javax.swing.JRadioButton" name="fullTimeInfoRadioButton">
                   <Properties>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -1263,7 +1263,7 @@
                     <Property name="text" type="java.lang.String" value="Full Time Employee"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fullTimeRadioButton1ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fullTimeInfoRadioButtonActionPerformed"/>
                   </Events>
                 </Component>
                 <Component class="javax.swing.JTextField" name="deductInfoField">
@@ -1280,7 +1280,7 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="saveButton">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Save"/>
+                    <Property name="text" type="java.lang.String" value="Remove"/>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveButtonActionPerformed"/>
@@ -1288,7 +1288,7 @@
                 </Component>
                 <Component class="javax.swing.JButton" name="cancelButton">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Cancel"/>
+                    <Property name="text" type="java.lang.String" value="Edit"/>
                   </Properties>
                   <Events>
                     <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelButtonActionPerformed"/>
