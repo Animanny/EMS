@@ -5,13 +5,12 @@ import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
 /**
- * MyHashTable is a class that will create a HashTable
- * 
+
  * @author Ani
  *
  */
-
 public class MyHashTable {
+
 
 	private ArrayList<EmployeeInfo>[] buckets;
 	private int k;
@@ -110,4 +109,3 @@ public class MyHashTable {
             }
         }
 }
-
