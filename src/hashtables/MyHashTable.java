@@ -96,7 +96,7 @@ public class MyHashTable {
                             writer.println("Gender: " + buckets[i].get(j).getGender());
                             writer.println("Location: " + buckets[i].get(j).getLocation());
                             if (buckets[i].get(j) instanceof PartTimeEmployee){
-                               // writer.println("Type: Part Time Employee")
+                               // writer.println("Type: Part Time Employee")h
                             }
                             writer.close();
 
